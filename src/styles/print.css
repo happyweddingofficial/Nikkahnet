@@ -1,0 +1,40 @@
+/* Print Stylesheet for Nikah.Net Matrimonial Biodata */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  
+  .biodata-sheet, .biodata-sheet * {
+    visibility: visible;
+  }
+  
+  .biodata-sheet {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background: #FFFFFF !important;
+    color: #111827 !important;
+    border: 2px solid #D97706;
+    border-radius: 8px;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  .biodata-header-print {
+    text-align: center;
+    border-bottom: 2px solid #781128;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .biodata-table td {
+    padding: 6px 10px !important;
+    font-size: 12pt !important;
+    border-bottom: 1px solid #E5E7EB !important;
+  }
+}
