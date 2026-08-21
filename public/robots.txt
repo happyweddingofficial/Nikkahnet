@@ -70,5 +70,5 @@ User-agent: meta-externalagent
 Allow: /
 
 # Host & Sitemap Declaration
-Host: https://nikahnet.com
-Sitemap: https://nikahnet.com/sitemap.xml
+Host: https://www.nikkahnet.in
+Sitemap: https://www.nikkahnet.in/sitemap.xml
